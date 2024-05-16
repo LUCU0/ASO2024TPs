@@ -3,6 +3,7 @@
 ### Repositorio para la materia Arquitectura y Sistemas Operativos de la carrera Tecnicatura Universitaria en Programación en la universidad **UTN**.
 
 <p>
+  
 **Respuestas al trabajo practico n°3**
 
 **Punto 1** 
