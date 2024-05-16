@@ -95,6 +95,8 @@ int main(int argc, char *argv[])
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
 ```
+##### **B) Viendo la figura 2-22, como sería para el problema de las hamburguesas con 2 comensales y 8 hamburgesas.**
 
+![Diagrama_blanco_hamburguesa drawio](https://github.com/LUCU0/ASO2024TPs/assets/72327972/e7b8e6c4-e5ea-43bf-92f7-8ef59d5bde62)
 
 
