@@ -1,12 +1,14 @@
 # Repositorio del alumno **Lucio Mansilla Andreocci**
 
 ### Repositorio para la materia Arquitectura y Sistemas Operativos de la carrera Tecnicatura Universitaria en Programación en la universidad **UTN**.
-  
-**Respuestas al trabajo practico n°3**
 
-**Punto 1** 
+  <p>
 
-**a) ¿Qué se puede notar con respecto al tiempo de ejecución? ¿Es predecible?**  
+#### Respuestas al trabajo practico n°3
+
+##### Punto 1 
+
+###### a) ¿Qué se puede notar con respecto al tiempo de ejecución? ¿Es predecible?
 Lo que se puede notar entre una ejecución y otra del mismo archivo es una diferencia mínima en el tiempo, mientras que si se compara el tiempo de ejecución de un archivo y del otro se nota mucho la diferencia de tiempo entre una y otra.
 No no es predecible ya que los dos archivos son distintos y la ejecución hace cosas diferentes.
 
@@ -31,6 +33,7 @@ No son iguales debido a que puede haber una diferencia de hardware pero si son m
 En mi caso lo que paso fue que al ajecutar las 10 veces el archivo con las lineas comentadas el valor final me daba 0 y solamente 3 veces me dio otros valores que fueron 280455, -219795 y -92720, con unos tiempos que variaban entre 0.01 y 0.06, y una sola vez salio con un pico de 0.26 segundos. Mientras que el archivo con las lineas descomentadas lo que mas cambio fueron los valores finales que no dieron 0 daban numeros negativos y positivos sin pasarce de los 500000 y los -500000, con los tiempos tambien fue un cambio grande, los tiempos fueron desde 8.6 a 11.14 segundos.
 Esto sucede porque se le agrega un for y un pass.
 
+</p>
 
 
 
