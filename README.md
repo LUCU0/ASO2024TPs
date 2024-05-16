@@ -29,5 +29,8 @@ Zanconi | 4.04913 | 5.18182
 | 4.03406 | 5.19020
 ------------- | ------------- | -------------  
  
- 
+ | Name                       | Default value      | Description                                                                 |
+| -------------------------- | ------------------ | --------------------------------------------------------------------------- |
+| PROJECT_NAME               | My Amazing Project | Your project name                                                           |
+| REPO_SLUG                  | my-amazing-project | Repo slug must match the GitHub repo URL slug part                          |
  
