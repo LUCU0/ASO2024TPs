@@ -31,6 +31,8 @@ No son iguales debido a que puede haber una diferencia de hardware pero si son m
 En mi caso lo que paso fue que al ajecutar las 10 veces el archivo con las lineas comentadas el valor final me daba 0 y solamente 3 veces me dio otros valores que fueron 280455, -219795 y -92720, con unos tiempos que variaban entre 0.01 y 0.06, y una sola vez salio con un pico de 0.26 segundos. Mientras que el archivo con las lineas descomentadas lo que mas cambio fueron los valores finales que no dieron 0 daban numeros negativos y positivos sin pasarce de los 500000 y los -500000, con los tiempos tambien fue un cambio grande, los tiempos fueron desde 8.6 a 11.14 segundos.
 Esto sucede porque se le agrega un for y un pass.
 
+Lo que paso es que hay 2 hilos que modifican la misma variable global simultaneamente sin sincronizacion lo que proboca una race condition generando resultados impredecibles.
+
 
 #### **PUNTO 2**
 
@@ -50,24 +52,22 @@ void *comer_hamburguesa(void *tid)
 	while (1 == 1)
 	{ 
 		
-    // INICIO DE LA ZONA CRÍTICA
-		if (cantidad_restante_hamburguesas > 0)
-		{
-			while(turno!=(int)tid);
+    	// INICIO DE LA ZONA CRÍTICA
+		while(turno!=(int)tid);
+		
+			if (cantidad_restante_hamburguesas > 0)
 			{
 				printf("Hola! soy el hilo(comensal) %d , me voy a comer una hamburguesa ! ya que todavia queda/n %d \n", (int) tid, cantidad_restante_hamburguesas);
 				cantidad_restante_hamburguesas--; // me como una hamburguesa
-				turno = (turno + 1)% NUMBER_OF_THREADS;
 			}
-		}
-		else
-		{
-			printf("SE TERMINARON LAS HAMBURGUESAS :( \n");
-
-			pthread_exit(NULL); // forzar terminacion del hilo
-		}
-    // SALIDA DE LA ZONA CRÍTICA   
-
+			else
+			{
+				printf("SE TERMINARON LAS HAMBURGUESAS :( \n");
+				turno = (turno + 1)% NUMBER_OF_THREADS;
+				pthread_exit(NULL); // forzar terminacion del hilo
+			}
+    	// SALIDA DE LA ZONA CRÍTICA   
+		turno = (turno + 1)% NUMBER_OF_THREADS;
 	}
 }
 
@@ -90,7 +90,6 @@ int main(int argc, char *argv[])
 	{
 		void *retval;
 		ret = pthread_join(threads[i], &retval); // espero por la terminacion de los hilos que cree
-		turno = (turno + 1)% NUMBER_OF_THREADS;
 	}
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
