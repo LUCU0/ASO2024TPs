@@ -1,6 +1,21 @@
-# Repositorio del alumno Lucio Mansilla Andreocci :fa-github:
+![LOGO](https://www.frbb.utn.edu.ar/frbb/wp-content/uploads/2023/05/logo70.png) 
 
-### Repositorio para la materia Arquitectura y Sistemas Operativos de la carrera Tecnicatura Universitaria en Programación en la universidad **UTN**.
+# Repositorio para la carrera [Tcnicatura Universitaria en Programación](https://www.frbb.utn.edu.ar/frbb/sacad/carreras/tup/) de la **UTN**
+### **Alumno:** [Lucio Mansilla Andreocci](https://github.com/LUCU0)
+### **Materia:** Arquitectura y Sistemas Operativos
+### **Profesores:** Gustavo Ramoscelli y [Sergio Antozzi](https://github.com/santozzi)
+
+#
+![HackerPcGIF](https://github.com/LUCU0/ASO2024TPs/assets/72327972/2d990296-3f45-44ca-adfb-45fc1a4fc460)
+
+# Trabajo Practico N°1 ✅
+### Tomar una captura de pantalla con VSCode y código python y subirla en la tarea del aula virtual.
+- [Captura del código de python](https://github.com/LUCU0/ASO2024TPs/blob/main/TP1/Captura%20de%20pantalla_2024-05-13_18-41-50.png)
+- **Código usado:** `print("Hola mundo")`
+
+# Trabajo Practico N°2
+
+
 
 #### **Respuestas al trabajo practico n°3**
 
