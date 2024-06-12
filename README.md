@@ -24,7 +24,7 @@
 
 # Trabajo Practico N°3 ✅
 
-## PUNTO 1
+### PUNTO 1
 
 - **a) ¿Qué se puede notar con respecto al tiempo de ejecución? ¿Es predecible?**   
 Lo que se puede notar entre una ejecución y otra del mismo archivo es una diferencia mínima en el tiempo, mientras que si se compara el tiempo de ejecución de un archivo y del otro se nota mucho la diferencia de tiempo entre una y otra.
@@ -54,7 +54,7 @@ Lo que paso es que hay 2 hilos que modifican la misma variable global simultanea
 
 #
 
-## PUNTO 2
+### PUNTO 2
 
 - **A) Tu tarea será colocar las líneas de código en los lugares adecuados para poder resolver el problema de las hamburguesas de distribución equitativa.** 
 
