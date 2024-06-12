@@ -1,4 +1,4 @@
-# Repositorio del alumno **Lucio Mansilla Andreocci**
+# Repositorio del alumno Lucio Mansilla Andreocci :fa-github:
 
 ### Repositorio para la materia Arquitectura y Sistemas Operativos de la carrera Tecnicatura Universitaria en Programación en la universidad **UTN**.
 
