@@ -17,7 +17,7 @@
 
 
 # Trabajo Practico N°1 ✅
-
+## Instalación de Máquina Virtual / Linux / VisualStudioCode (VSCode)
 
 
 ### 📌 Tomar una captura de pantalla con VSCode y código python y subirla en la tarea del aula virtual.
@@ -31,6 +31,7 @@
 #####  
 
 # Trabajo Practico N°2 ✅
+## Generalidades Linux / Git (control de versiones) / GCC (GNU Colección de Compiladores)
 
 ### 📌 Crear el repositorio **ASO2024TPs**, ejecutar el archivo procesos.c y subir captura de pantalla de los procesos listados
 - [Captura del listado de procesos](https://github.com/LUCU0/ASO2024TPs/blob/main/TP2/Captura%20de%20pantalla_2024-04-12_20-28-05.png)
@@ -43,6 +44,7 @@
 
 
 # Trabajo Practico N°3 ✅
+## Hilos de ejecución
 
 ### 📍 PUNTO 1
 
@@ -107,17 +109,53 @@ Lo que paso es que hay 2 hilos que modifican la misma variable global simultanea
 #####  
 
 # Trabajo Practico N°4 ✅
+## Docker compose - Servicios
 
 ### 📍 El práctico consiste en armar los servicios necesarios para una aplicación web básica y además, replicar parcialmente el sitio de la UTN-FRBB.
 ####
 ### 🚨 Subir las capturas de pantalla de: 
 ####
-- 📌 **Mostrar con captura de pantalla la creación de los servicios y que los servicios están corriendo vía** ``docker-compose ps.``    👉 [CAPTURA REALIZADA](TP4/docker-compose ps.png)
+- 📌 **Mostrar con captura de pantalla la creación de los servicios y que los servicios están corriendo vía** ``docker-compose ps.``
+#### 🖼️  [CAPTURA REALIZADA](TP4/docker_compose_ps.png)
+
+####   
+####   
+
+- 📌 **Mostrar los sitio que crean los servicios phpmyadmin (http://localhost:8000/) y nginx (http://localhost/) con capturas de pantalla de un navegador web.**
+#### 🖼️  [CAPTURA phpmyadmin](TP4/phpmyadmin.png)
+#### 🖼️  [CAPTURA nginx](TP4/WebHTML.png)
+
+####   
+####   
 ####
-- 📌 **Mostrar los sitio que crean los servicios phpmyadmin (http://localhost:8000/) y nginx (http://localhost/) con capturas de pantalla de un navegador web.**    👉 [CAPTURA REALIZADA]()
+
+- 📌 **Luego de clonar el sitio de la facultad, mostrar que está corriendo en forma local (http://localhost/) con capturas del navegador web. Y si se animan modifiquen algo.**
+#### 🖼️  [CAPTURA Web UTN Clonada](TP4/webUTN.png)
+
+#
+#####  
+#####  
+#####  
+
+# Trabajo Practico N°5 ✅
+## Bash scripting
+
+### 📍 Para el práctico final de la materia deben entregarse dos ejercicios: un ejercicio debe ser de la Parte I y un ejercicio debe ser de la parte II.
 ####
-- 📌 ****
+### 🚨 Se eligieron los siguientes ejercicios:
+### - **Parte 1** - Adivina el Número: Escribe un script que genere un número aleatorio entre 1 y 100 y permita al usuario intentar adivinarlo, proporcionando pistas si el intento es demasiado alto o bajo.
+### - **Parte 2** - Mostrar la edad probable de un nombre ingresado por el usuario, usando la API del sitio https://api.agify.io/?name=nombre .
+
+####   
+####   
+### 🚨 Códigos:
+### 👉 [Parte 1](TP5/parte1_1.sh)
+####   
+####   
+### 👉 [Parte 2](TP5/Parte2_Edad.sh)
+
+####    
+####    
+####    
 
 
-
-# 👾🤖👁️👇☝️👉👈📌✏️🖋️🖊️🖍️📍🚨💯☑️  🖼️
