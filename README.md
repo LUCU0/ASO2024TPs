@@ -1,9 +1,10 @@
 ![LOGO](https://www.frbb.utn.edu.ar/frbb/wp-content/uploads/2023/05/logo70.png) 
 
-# Repositorio para la carrera [Tcnicatura Universitaria en Programación](https://www.frbb.utn.edu.ar/frbb/sacad/carreras/tup/) de la **UTN**
-### **Alumno:** [Lucio Mansilla Andreocci](https://github.com/LUCU0)
-### **Materia:** Arquitectura y Sistemas Operativos
-### **Profesores:** Gustavo Ramoscelli y [Sergio Antozzi](https://github.com/santozzi)
+# Repositorio para la carrera [Tcnicatura Universitaria en Programación](https://www.frbb.utn.edu.ar/frbb/sacad/carreras/tup/) de la UTN
+### **Alumno:**  [Lucio Mansilla Andreocci](https://github.com/LUCU0)
+### **Materia:**  Arquitectura y Sistemas Operativos
+### **Profesores:**  Gustavo Ramoscelli y [Sergio Antozzi](https://github.com/santozzi)
+#####
 
 #
 
@@ -15,14 +16,21 @@
 </p>
 
 #
-
+#####
+#####
+#####
 
 # Trabajo Practico N°1 ✅
+#####
+
 ### Tomar una captura de pantalla con VSCode y código python y subirla en la tarea del aula virtual.
 - [Captura del código de python](https://github.com/LUCU0/ASO2024TPs/blob/main/TP1/Captura%20de%20pantalla_2024-05-13_18-41-50.png)
+  ######
 - **Código usado:** `print("Hola mundo")`
-
+  
+#####
 #
+#####
 
 
 # Trabajo Practico N°2 ✅
@@ -30,7 +38,9 @@
 - [Captura del listado de procesos](https://github.com/LUCU0/ASO2024TPs/blob/main/TP2/Captura%20de%20pantalla_2024-04-12_20-28-05.png)
 - [Código que se ejecuto (archivo procesos.c)](TP2/procesos.c)
 
+#####
 #
+#####
 
 
 # Trabajo Practico N°3 ✅
@@ -66,11 +76,13 @@ En mi caso lo que paso fue que al ajecutar las 10 veces el archivo con las linea
 Esto sucede porque se le agrega un for y un pass.   
 Lo que paso es que hay 2 hilos que modifican la misma variable global simultaneamente sin sincronizacion lo que proboca una race condition generando resultados impredecibles.
 
+#####
 #
+#####
 
 ### PUNTO 2
 
-- **A) Tu tarea será colocar las líneas de código en los lugares adecuados para poder resolver el problema de las hamburguesas de distribución equitativa.** 
+- **📌 A) Tu tarea será colocar las líneas de código en los lugares adecuados para poder resolver el problema de las hamburguesas de distribución equitativa.** 
 **Se devera usar las siguientes líneas de codigo para resolver el problema:**
 
 ````c
@@ -82,12 +94,15 @@ Lo que paso es que hay 2 hilos que modifican la misma variable global simultanea
 
  🚨 👉  [**Código resuelto**](TP3/con_race_condition.c)  👈 🚨
 
+#####
 #
+#####
 
-- **B) Viendo la figura 2-22, como sería para el problema de las hamburguesas con 2 comensales y 8 hamburgesas.**
+- **📌 B) Viendo la figura 2-22, como sería para el problema de las hamburguesas con 2 comensales y 8 hamburgesas.**
+######
+![Driagrama hamburguesas](TP3/Diagrama_blanco_hamburguesa.drawio.png)
 
 
 
 
-
-# 👾🤖👁️👇☝️👉👈📌✏️🖋️🖊️🖍️📍🚨💯☑️  
+# 👾🤖👁️👇☝️👉👈📌✏️🖋️🖊️🖍️📍🚨💯☑️  🖼️
